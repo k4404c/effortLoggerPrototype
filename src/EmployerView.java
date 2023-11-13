@@ -23,6 +23,7 @@ public class EmployerView extends VBox {
         });
 
         this.getChildren().addAll(titleLabel, employeeDataTextArea, logoutButton);
+        timeout times = new timeout(primaryStage);
     }
 
     private void openLoginPage() {
